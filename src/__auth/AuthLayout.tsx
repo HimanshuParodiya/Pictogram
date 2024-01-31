@@ -1,7 +1,11 @@
-import React from "react";
+import SignUpForm from "./forms/SignUpForm";
 
 const AuthLayout = () => {
-  return <div>AuthLayout</div>;
+  return (
+    <div>
+      <SignUpForm />
+    </div>
+  );
 };
 
 export default AuthLayout;
